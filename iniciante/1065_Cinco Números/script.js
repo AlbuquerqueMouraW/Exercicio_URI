@@ -9,13 +9,13 @@ Saída: Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
-var positive = 0;
+var numerosPares = 0;
 
 for (i=1; i<=5; i++){
     var value = parseFloat(lines.shift());
     if (value % 2 == 0){
-        positive++
+        numerosPares++
     }
 
 }
-console.log(`${positive} valores positivos` );
+console.log(`${numerosPares} valores pares` );
