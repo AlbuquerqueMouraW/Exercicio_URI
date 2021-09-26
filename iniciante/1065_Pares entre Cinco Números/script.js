@@ -1,9 +1,9 @@
 /*
-1060_Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
+1065_Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
 
-Entrada: Seis valores, negativos e/ou positivos.
+Entrada: O arquivo de entrada contém 5 valores inteiros quaisquer.
 
-Saída: Imprima uma mensagem dizendo quantos valores positivos foram lidos.
+Saída: Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
 */
 
 var input = require('fs').readFileSync('stdin', 'utf8');
